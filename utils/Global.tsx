@@ -24,9 +24,14 @@ body {
   color: ${primaryTextColor};
 }
 
-
 h1 {
   font-size: ${typeScale.header1};
+}
+
+h2 {
+  font-size: ${typeScale.header2};
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 a, li, ul {
